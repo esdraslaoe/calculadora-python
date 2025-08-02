@@ -17,3 +17,4 @@ if __name__ == "__main__":
     print(f"5.5 + 4.5 = {soma(5.5, 4.5)}") 
 
     print(f'1900 + 2025 = {soma(1900, 2025)}')  # Adicionando comentário.
+    print(f'70 + 100 = {soma(70, 100)}')
