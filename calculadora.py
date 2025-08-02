@@ -10,7 +10,20 @@ def soma(a, b):
     int/float: Resultado da soma
     """
     return a + b
-
+    
+def multiplicacao(a, b):
+    """
+    Realiza a multiplicação de dois números.
+    
+    Parâmetros:
+    a (int/float): Primeiro número
+    b (int/float): Segundo número
+    
+    Retorna:
+    int/float: Resultado da multiplicação
+    """
+    return a * b
+    
 if __name__ == "__main__":
     print("Teste da função soma:")
     print(f"2 + 3 = {soma(2, 3)}") 
