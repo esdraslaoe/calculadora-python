@@ -19,3 +19,13 @@ if __name__ == "__main__":
     print(f'1900111 + 2025111 = {soma(1900111, 2025111)}')  # Adicionando segundo comentário.
     print(f'70 + 100 = {soma(70, 100)}')
     print(f'80 + 100 = {soma(80, 100)}') # Adicionando outro comentário.
+
+def subtracao(a, b):
+    return a - b
+
+if __name__ == "__main__":
+    print('Teste de subtração')
+    print(f'10 - 7 = {subtracao(10, 7)}')
+    
+
+   
