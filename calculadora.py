@@ -23,27 +23,20 @@ def multiplicacao(a, b):
     int/float: Resultado da multiplicação
     """
     return a * b
-    
-if __name__ == "__main__":
-    print("Teste da função soma:")
-    print(f"2 + 3 = {soma(2, 3)}") 
-    print(f"5.5 + 4.5 = {soma(5.5, 4.5)}") 
 
-    print(f'1900111 + 2025111 = {soma(1900111, 2025111)}')  # Adicionando segundo comentário.
-    print(f'70 + 100 = {soma(70, 100)}')
-<<<<<<< HEAD
-
-    print('tudo certo nada errado')
-=======
-    print(f'80 + 100 = {soma(80, 100)}') # Adicionando outro comentário.
+def divisao (a, b):
+    return a / b   
 
 def subtracao(a, b):
-    return a - b
-
+    return a - b    
+  
 if __name__ == "__main__":
-    print('Teste de subtração')
-    print(f'10 - 7 = {subtracao(10, 7)}')
-    
+  print("Teste da função soma:")
+  print(f"2 + 3 = {soma(2, 3)}") 
+  print(f"5.5 + 4.5 = {soma(5.5, 4.5)}") 
 
-   
->>>>>>> main
+  print(f'1900 + 2025 = {soma(1900, 2025)}')
+  print("Teste da função divisao:")
+  print(f"6 / 3 = {divisao(6, 3)}")  #comentario teste
+  print('Teste de subtração')
+  print(f'10 - 7 = {subtracao(10, 7)}')
